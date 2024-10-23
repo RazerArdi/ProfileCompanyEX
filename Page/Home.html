@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semar Sentinel</title>
+    <link rel="stylesheet" href="Home.css">
+    
+</head>
+<body>
+    <nav>
+        <img 
+        src="https://semar-sentinel.com/wp-content/uploads/2019/05/Semar-Sentinel-logo.png" 
+        alt="Semar Sentinel Logo" 
+        class="logo">
+        
+        <ul>
+            <li><a href="#home" onclick="navigateToHome()">Home</a></li>
+            <li><a href="OurValues.html">Our Values</a></li>
+            <li><a href="OurPractice.html">Our Practices</a></li>
+            <li><a href="#contact" onclick="scrollToContact()">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero" id="home">
+        <video autoplay muted loop>
+            <source src="https://semar-sentinel.com/wp-content/uploads/2019/06/057542129-digital-map_prores.mp4" type="video/mp4">
+        </video>
+
+        <div class="hero-content">
+            <h1>AN ACCESS TO<br>BUSINESS INTELLIGENCE</h1>
+            <p>In a complex and fast-moving environment,<br>
+               we provide up-to-date insights and effective solutions<br>
+               in order to support your activities in the region.</p>
+            <a href="OurValues.html">See our values</a>
+        </div>
+    </section>
+
+    <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/yIjaAt4G608" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <section class="practices" id="practices">
+        <h1 style="font-family:'Teko';font-weight:300;color:#303d91;">OUR PRACTICES</h1>
+        <p style="font-family:'Teko';font-weight:300;color:#303d91;">In order to apprehend the fast-moving pace of the region, we provide a full spectrum of services and solutions.</p>
+        <div class="practices-grid">
+            <div class="practice-card">
+                <h3 style="font-family:'Teko';font-weight:300;color:#303d91;">MARKET ENTRY AND BUSINESS DEVELOPMENT</h3>
+                <p style="font-family:'Teko';font-weight:300;color:#303d91;">CONSULTING SPECIFIC SERVICES AND TAILORED SOLUTIONS</p>
+            </div>
+            <div class="practice-card">
+                <h3 style="font-family:'Teko';font-weight:300;color:#303d91;">CONSULTINGSPECIFIC SERVICES</h3>
+                <p style="font-family:'Teko';font-weight:300;color:#303d91;">AND TAILORED SOLUTIONS</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="philosophy">
+        <h2>OUR PHILOSOPHY</h2>
+        <p>Semar is a character of the Javanese mythology who – despite its appearance – is considered as the wisest advisor. He is the solution-maker and the most reliable counsellor.</p>
+        <p>In line with the character Semar Sentinel strives to be a reliable partner who provides the best and suitable strategy based on our clients’ needs and goals.</p>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>CONTACT US</h2>
+        <div style="display: flex; align-items: flex-start;">
+            <img class="map-image" src="https://semar-sentinel.com/wp-content/uploads/2019/06/map.png" alt="Map" style="margin-right: 20px; max-width: 300px;">
+            <form style="flex-grow: 1;">
+                <div class="form-group">
+                    <label for="name">Your Name (required)</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email (required)</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject">
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="file">Your File (file allowed: .jpg, .png, .pdf)</label>
+                    <input type="file" id="file" accept=".jpg, .png, .pdf">
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Semar Sentinel. All rights reserved.</p>
+    </footer>
+    
+    <script src="Home.js" defer></script>
+</body>
+</html>

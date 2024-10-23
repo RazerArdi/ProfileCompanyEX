@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #2C2C54;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background: rgba(51, 51, 51, 0.7);
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 2rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav img.logo {
+    height: 50px; /* Sesuaikan tinggi logo */
+
+}
+
+.header {
+    background-image: url('https://semar-sentinel.com/wp-content/uploads/2019/06/p1.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 50px; /* Padding kiri untuk memberi ruang */
+    text-align: left; /* Konten di header diatur ke kiri */
+}
+.header h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+}
+.breadcrumb {
+    margin: 20px 50px;
+    font-size: 14px;
+}
+.breadcrumb a {
+    color: #2C2C54;
+    text-decoration: none;
+}
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+.content {
+    text-align: center;
+    padding: 50px 20px;
+}
+.content img {
+    max-width: 100%; /* Agar responsif */
+    height: auto;
+}
+.content h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.content p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+.values {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+.value-item {
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+}
+.value-item i {
+    font-size: 40px;
+    color: #2C2C54;
+}
+.value-item h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+.value-item p {
+    font-size: 14px;
+}
+.back-button {
+    text-align: center;
+    margin: 50px 0;
+}
+.back-button a {
+    text-decoration: none;
+    color: #2C2C54;
+    border: 1px solid #2C2C54;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+.back-button a:hover {
+    background-color: #2C2C54;
+    color: white;
+}
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 5rem 0;
+}
